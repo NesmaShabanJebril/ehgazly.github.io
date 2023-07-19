@@ -1,0 +1,275 @@
+@import url("http://www.fontstatic.com/f=jazeera,jazeera-bold");
+@import url("http://www.fontstatic.com/f=the-sans-arabic-light");
+@font-face {
+  font-family: TheSans;
+    src: url(thesans-7-bold);
+
+}
+body{
+    font-family: 'the-sans-arabic-light'!important ;
+    font-size: 16px;
+    color:#000;
+    background: #d4d1d142;
+    overflow-x: hidden;
+}
+header , footer{
+       background: #0092ffbf;
+    color: #fff;
+}
+
+.arabic{
+    direction: rtl;
+    text-align: right;
+    font-family: 'jazeera-bold'!important;
+  overflow-x: hidden;
+}
+.mr-10{
+    margin: 10px;
+}
+.mr-b-10{
+    margin-bottom: 10px;
+    
+}
+.mr-0{
+    margin: 0px!important;
+}
+.pad-10{
+    padding: 10px!important;
+}
+.bg-b{
+    background: #000;
+    color: #fff;
+}
+
+.c-b{
+    color: #000;
+}
+.pad-0{
+    padding: 0px!important;
+}
+.pad-5{
+    padding: 5px;
+}
+.mr-auto{
+    margin: auto!important;
+}
+/*nav */
+.logo img{
+    width: 80px;
+    height: 60px;
+}
+
+
+.navbar-nav li:hover{
+    background: lightgray;
+}
+  a{
+    color: #000;  
+}
+ header a{
+    font-size: 20px!important;
+}
+.nav > li >a {
+    color:#fff;
+}
+.bg-w{
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.c-w{
+    color: #fff;
+}
+/* start dropdown */
+.btn,.bg-btn{
+    background: #37c6f7;
+        cursor: pointer;
+    font-size: 20px;
+    border-radius: 0px!important;
+    
+}
+.btn-light{
+    background: lightgray;
+    border: 1px solid lightgray;
+}
+.btn-danger{
+    background: red;
+}
+input ,textarea, select ,option{
+		border:1px solid lightgray !important;
+padding:20px;
+    color: 0092ff;
+    font-size: 20px!important;
+}
+.setup input ,.setup textarea,.setup select ,.setup option{
+    border: none!important;
+		border-bottom:1px solid #000 !important;
+    color: gray;
+		
+}
+::placeholder{
+		font-size: 20px!important;
+    color: 0092ff;
+}
+ .setup ::placeholder{
+    color: gray;
+}
+		input:focus,textarea:focus {
+  border:2px solid  #000 !important;
+	box-shadow: none!important;
+}
+
+.btn:focus{
+	box-shadow: none!important;
+}
+.navbar-nav li{
+    border-bottom: 1px solid gray !important;
+}
+.color-b{
+    color: #000!important;
+}
+/*sidbar */
+.sidbar{
+	min-height:100%;
+    background-color:#0070cd;
+	position:absolute;
+	top:0;
+	right:-100%;
+    z-index: 999999;
+    color:#fff;
+    display: none;
+}
+.sidbar > ul >li> a{
+    color:#fff;}
+
+.hide{
+   display:none;
+    color: #fff;
+}
+.active{
+	right:0%;
+	transition:.3s;
+    display: block;
+}
+/* end nav */
+/* category */
+.relative{
+    position: relative;
+}
+.h img{
+    height: 80vh;
+}
+.abs-h1{
+    position: absolute;
+  left: 10%;
+    top:6%;
+     color: #000;
+    z-index: 11111;
+}
+.arabic .abs-h1{
+  right: 10%; 
+    left: auto;
+}
+.abs{
+    position: absolute;
+    right: 0;
+    bottom:0vh;
+    left: 0;
+z-index: 111111;
+}
+.abs-circle{
+    position: absolute;
+    left: 5;
+    top:5;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+span .abs{
+    bottom: 40%;
+}
+a .svg-inline--fa,.fa-times {
+color: #0070cd}
+
+	
+.main-color{
+    color: #0070cd;
+}
+.bg-main{
+    background: #0070cd; 
+}
+
+
+footer .svg-inline--fa{
+     color: #fff;
+    font-size: 25px;
+}
+.close1  .svg-inline--fa{
+    font-size: 30px;
+    color: #fff!important;
+}
+/*search */
+.circle{
+  width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+span{
+    display: inline-block;
+    padding: 5px;
+     background: #0070cd;
+    margin: 5px;
+    color: #fff;
+}
+span.btn{
+  background: 0070cd;
+    padding: 0px 7px;
+}
+.img{
+    width: 80px;
+    height: 70px;
+    margin: 5px;
+}
+.login{
+    width: 50%;
+}
+.arabic .form-check-input{
+        margin-right: -1.25rem!important;
+
+}
+.login ::placeholder , .contact  ::placeholder{
+    color: gray;
+    font-size: 15px!important;
+}
+.time{
+        cursor: pointer;
+}
+
+
+
+
+
+.fileUpload {
+   margin: auto!important
+    overflow: hidden;
+   
+   
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    border-radius: 50%; 
+    z-index: 11111111;
+}
+
+
+
